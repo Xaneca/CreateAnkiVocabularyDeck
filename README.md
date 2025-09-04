@@ -41,7 +41,7 @@ python create_deck.py
 Import the generated .apkg file into Anki.
 ```
 
-## Add new words
+## ➕ Add new words
 If you add new words, just add them to vocabulary.txt and run the script again.
 
 **Keep the same deck name and deck ID to update the existing deck.**
