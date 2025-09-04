@@ -1,9 +1,4 @@
-# CreateAnkiVocabularyDeck
-Python code to create anki deck with vocabulary to learn. You only need a txt file with the 2 words, in your native language and the language you are learning. Then, this script will transform those words in cards in a deck for anki.
-
-
-# Korean Vocabulary Anki Deck Generator
-
+# Create Anki Vocabulary Deck Generator
 This Python script allows you to create an **Anki flashcard deck** from a simple text file containing new vocabulary and their translations. It can generate cards in **both directions** (New Language → Native Language and vice versa).
 
 
