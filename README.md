@@ -52,6 +52,7 @@ Add your vocabulary to vocabulary.txt.
 Run the script:
 python create_deck.py
 Import the generated .apkg file into Anki.
+```
 
 If you add new words, just add them to vocabulary.txt and run the script again.
 
@@ -68,6 +69,7 @@ Keep the same deck name and deck ID to update the existing deck.
 5. Each line generates **two cards** if `Deck_Type = 0`.
 
 ## ⚠️ Notes & Tips
+
 The script does not automatically remove duplicates. Anki will ignore notes with the same "Front" field if duplicates exist.
 
 If you delete a note in Anki but it still exists in vocabulary.txt, it will be recreated next time you run the script.
@@ -77,6 +79,7 @@ Always keep a backup of your vocabulary.txt if you plan to do big edits.
 Lines without a - or with invalid format will be ignored (the script prints a warning).
 
 ## 📄 Example vocabulary.txt
+
 도시 - city
 이름 - name
 저 - I, me (formal)
