@@ -7,18 +7,10 @@ This Python script allows you to create an **Anki flashcard deck** from a simple
 The vocabulary should be saved in a plain text file (default: `vocabulary.txt`).  
 Each line represents **one vocabulary item**.
 
-You can use **two formats**:
-
-1. **Direct format:**
+```bash
 사과 - apple
 책 - book
-
-
-2. **Copied from Notion (automatic formatting):**
-학생 = student
-학교 = school
-
-The script will automatically convert Notion-style lines into the proper format.
+```
 
 **Important rules:**
 - Use a `-` (dash) as the separator between the **new language** and **native language** after formatting.
@@ -49,9 +41,10 @@ python create_deck.py
 Import the generated .apkg file into Anki.
 ```
 
+## Add new words
 If you add new words, just add them to vocabulary.txt and run the script again.
 
-Keep the same deck name and deck ID to update the existing deck.
+**Keep the same deck name and deck ID to update the existing deck.**
 
 ## 📌 How It Works
 
