@@ -43,8 +43,8 @@ def generate_deck(vocabulary):
         templates=[
             {
                 'name': 'Card 1',
-                'qfmt': '{{Front}}',
-                'afmt': '{{Front}}<hr id="answer">{{Back}}',
+                'qfmt': '<div style="text-align:center;">{{Front}}</div>',
+                'afmt': '<div style="text-align:center;">{{Front}}<hr id="answer">{{Back}}</div>',
             },
         ])
 
