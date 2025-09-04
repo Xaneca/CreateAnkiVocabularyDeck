@@ -67,7 +67,7 @@ Always keep a backup of your vocabulary.txt if you plan to do big edits.
 Lines without a - or with invalid format will be ignored (the script prints a warning).
 
 ## 📄 Example vocabulary.txt
-
+```bash
 도시 - city
 이름 - name
 저 - I, me (formal)
@@ -101,3 +101,4 @@ Lines without a - or with invalid format will be ignored (the script prints a wa
 네 - yes
 아니 - no
 이다 - to be
+```
